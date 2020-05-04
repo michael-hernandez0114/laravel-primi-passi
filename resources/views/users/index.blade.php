@@ -134,8 +134,13 @@ $cards = json_decode($data, true);
     <head>
         <meta charset="utf-8">
         <title>La Molisana</title>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
+
+        <header>
+            <img src="{{asset('img/marchio-sito-test.png')}}" alt="">
+        </header>
 
         @foreach ($cards as $card)
             <h3>{{$card['titolo']}}</h3>
