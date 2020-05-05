@@ -1,4 +1,59 @@
+/* RESET */
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* MAIN */
+
+main section .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section .cards .card {
+  flex-basis: calc(100% / 3 - 40px);
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+}
+
+main section .cards .card img {
+  width: 100%;
+}
+
+main section .cards .card:hover .overlay {
+  display: block;
+}
+
+main section .cards .card:hover img {
+  transform: scale(1.2);
+}
+
+main section .cards .card .overlay {
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main section .cards .card .overlay h3 {
+  padding-bottom: 10px;
+}
+
+/* HEADER */
+
 header {
   text-align: center;
 }
+
+/* FOOTER */
 

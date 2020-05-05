@@ -1,10 +1,11 @@
-//
+/* RESET */
+@import 'reset';
+@import 'variables';
 
-body {
-
-}
-
-header {
-    text-align: center;
-
-}
+@import 'common';
+/* MAIN */
+@import 'partials/_main';
+/* HEADER */
+@import 'partials/_header';
+/* FOOTER */
+@import 'partials/_footer';

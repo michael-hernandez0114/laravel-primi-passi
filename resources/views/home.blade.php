@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <title>Test Home</title>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
-        Home
+        @include ('partials.header')
     </body>
 </html>
