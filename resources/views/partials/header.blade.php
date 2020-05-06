@@ -14,5 +14,8 @@
                 <a href="{{route('contatti')}}">Contatti</a>
             </li>
         </ul>
+        <a class="hamburger" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
     </nav>
 </header>

@@ -9,6 +9,7 @@ header {
 
         display: flex;
         justify-content: center;
+        
 
         ul {
 
@@ -16,6 +17,11 @@ header {
                 float: left;
                 padding: 15px 10px;
             }
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 20px;
         }
     }
 

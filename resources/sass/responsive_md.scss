@@ -1,4 +1,19 @@
 @media all and (max-width: 1199px) {
+    header {
+        nav {
+            padding-bottom: 20px;
+            ul {
+                display: none;
+
+            }
+            .hamburger {
+                display: block;
+
+            }
+        }
+
+    }
+
     main {
         section {
             .cards {

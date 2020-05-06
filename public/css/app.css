@@ -56,6 +56,11 @@ header nav ul li {
   padding: 15px 10px;
 }
 
+header nav .hamburger {
+  display: none;
+  font-size: 20px;
+}
+
 /* MAIN */
 
 main {
@@ -119,6 +124,18 @@ footer .bottom-img img {
 }
 
 @media all and (max-width: 1199px) {
+  header nav {
+    padding-bottom: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header nav .hamburger {
+    display: block;
+  }
+
   main section .cards .card {
     flex-basis: calc(100% / 2 - 5px);
   }
