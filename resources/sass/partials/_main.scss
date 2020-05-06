@@ -2,18 +2,25 @@ main {
 
     background-image: url('../../../public/img/fondo-pag-speciali.jpg');
 
+    .container {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+
     section {
 
+        padding-bottom: 10px;
 
         .cards {
             display: flex;
-
             flex-wrap: wrap;
 
             .card {
-                flex-basis: calc(100% / 3 - 40px);
+                flex-basis: calc(100% / 3 - 5px);
                 position: relative;
-                margin: 20px;
+                margin-right: 5px;
                 overflow: hidden;
                 img {
                     width: 100%
