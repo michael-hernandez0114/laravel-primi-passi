@@ -1,0 +1,18 @@
+footer {
+    .footer-blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .spaced-list {
+        li {
+            padding-bottom: 10px;
+        }
+    }
+
+    .bottom-img {
+        img {
+            width: 100%;
+        }
+    }
+}
