@@ -3,9 +3,14 @@
 @import 'variables';
 
 @import 'common';
-/* MAIN */
-@import 'partials/_main';
 /* HEADER */
 @import 'partials/_header';
+/* MAIN */
+@import 'partials/_main';
+
 /* FOOTER */
 @import 'partials/_footer';
+
+@import 'responsive_md';
+
+@import 'responsive_xs';

@@ -1,0 +1,20 @@
+@media all and (max-width: 1199px) {
+    main {
+        section {
+            .cards {
+                .card {
+                    flex-basis: calc(100% / 2 - 5px);
+                }
+            }
+        }
+
+    }
+    footer {
+        .footer-blocks {
+            display: block;
+        }
+        section {
+            padding-bottom: 10px;
+        }
+    }
+}
