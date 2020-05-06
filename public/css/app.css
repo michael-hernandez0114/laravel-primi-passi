@@ -149,3 +149,29 @@ footer .bottom-img img {
   }
 }
 
+@media all and (max-width: 767px) {
+  header nav {
+    padding-bottom: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header nav .hamburger {
+    display: block;
+  }
+
+  main section .cards {
+    display: block;
+  }
+
+  footer .footer-blocks {
+    display: block;
+  }
+
+  footer section {
+    padding-bottom: 10px;
+  }
+}
+
