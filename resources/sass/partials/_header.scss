@@ -1,3 +1,21 @@
 header {
     text-align: center;
+
+    nav {
+
+        display: flex;
+        justify-content: center;
+
+        ul {
+
+            li {
+                float: left;
+                padding: 15px 10px;
+            }
+        }
+    }
+
+
+
+
 }
