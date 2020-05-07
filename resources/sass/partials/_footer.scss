@@ -1,4 +1,8 @@
 footer {
+    a, h2, li {
+        color: gray;
+    }
+
     .footer-blocks {
         display: flex;
         justify-content: space-between;

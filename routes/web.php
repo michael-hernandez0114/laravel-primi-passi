@@ -29,3 +29,7 @@ Route::get('/prodotti', function() {
 Route::get('/contatti', function() {
     return view('contatti');
 })->name('contatti');
+
+Route::get('/prodotti/{id}', function ($id) {
+    return view('prodotto', compact('id'));
+})->name('prodotti.show');

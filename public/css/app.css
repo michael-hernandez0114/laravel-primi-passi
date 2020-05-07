@@ -33,7 +33,6 @@ h2 {
 
 a {
   text-decoration: none;
-  color: none;
 }
 
 /* HEADER */
@@ -61,9 +60,13 @@ header nav .hamburger {
   font-size: 20px;
 }
 
+header a {
+  color: black;
+}
+
 /* MAIN */
 
-main {
+main .fondo-prodotti {
   background-image: url(/images/fondo-pag-speciali.jpg?06a79f19fbb4489a17e2dff67ce37137);
 }
 
@@ -108,7 +111,38 @@ main section .cards .card .overlay h3 {
   padding-bottom: 10px;
 }
 
+main .prodotto {
+  background-color: #b8dae6;
+  padding: 40px 0;
+}
+
+main .prodotto h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+main .prodotto .img-block {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main .prodotto .img-block img {
+  width: 100%;
+}
+
+main .prodotto p {
+  width: 80%;
+  margin: 0 auto;
+  color: darkblue;
+}
+
 /* FOOTER */
+
+footer a,
+footer h2,
+footer li {
+  color: gray;
+}
 
 footer .footer-blocks {
   display: flex;
